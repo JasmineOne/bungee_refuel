@@ -49,7 +49,7 @@ def mass_refuel():
 class Refuel:
     def __init__(self, private_key):
         self.private_key = private_key
-        get_checksum_address(private_key=private_key)s
+        get_checksum_address(private_key=private_key)
         self.source_chain = config.SOURCE_CHAIN
         self.destination_chain = config.DESTINATION_CHAIN
         self.web3 = self.source_chain.web3
